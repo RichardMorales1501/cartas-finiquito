@@ -19,7 +19,6 @@ document.getElementById("generate").addEventListener("click", async () => {
 
         const { jsPDF } = window.jspdf;
 
-        
                 // Función para justificar texto
                 const addJustifiedText = (doc, text, x, y, maxWidth, lineHeight) => {
                     const words = text.split(" ");
